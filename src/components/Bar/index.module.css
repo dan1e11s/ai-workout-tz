@@ -1,0 +1,35 @@
+.bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  background-color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: #000;
+  padding: 20px 0;
+  box-shadow: 0 -16px 32px 0 rgba(170, 178, 189, 16%);
+}
+
+.bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.bar-item_text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bar .bar-item:last-child {
+  gap: 10px;
+  color: #aab2bd;
+}
